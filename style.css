@@ -374,7 +374,10 @@ h3 {
   }
 
   .section-hero {
-    min-height: auto;
-    padding-top: 3rem;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
